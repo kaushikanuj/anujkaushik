@@ -1,0 +1,88 @@
+{% load static %}
+<!-- Portfolio Section -->
+<div class="portfolio-area top" data-scroll-index="4" id="portfolio">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div id="filters" class="portfolio-menu filter-button-group text-center">
+                <h2>my portfolio</h2>
+                <ul>
+                    <li class="active" data-filter="*">All Projects</li>
+                    <li data-filter=".design">Branding</li>
+                    <li data-filter=".webdesign">Web design</li>
+                    <li data-filter=".logotipos">developemt</li>
+                    <li data-filter=".videomaker">ui Design</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-md-8">
+            <div class="container-temp portfolio-item-gellary container-temp"><!--  Dont remove class container -->
+                <div class="grid">
+                    <div class="single-portfolio grid-item branding web item element-item design"
+                         data-category="design">
+                        <img src="{% static 'images/portfolio5.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-portfolio grid-item branding web item element-item webdesign"
+                         data-category="webdesign">
+                        <img src="{% static 'images/portfolio6.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio grid-item branding web item element-item videomaker"
+                         data-category="videomaker">
+                        <img src="{% static 'images/portfolio1.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio grid-item branding web item element-item webdesign"
+                         data-category="webdesign">
+                        <img src="{% static 'images/portfolio2.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio grid-item branding web item element-item webdesign"
+                         data-category="webdesign">
+                        <img src="{% static 'images/portfolio3.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio grid-item branding web item element-item logotipos"
+                         data-category="logotipos">
+                        <img src="{% static 'images/portfolio4.jpg' %}" alt="">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-content">
+                                <h3>mockup</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--============== End Portfolio Section ================-->
